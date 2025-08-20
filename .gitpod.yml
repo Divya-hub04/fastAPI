@@ -1,0 +1,10 @@
+tasks:
+  - init: pip install -r requirements.txt # Installs necessary Python packages
+    command: code --install-extension ms-toolsai.jupyter # Installs the Jupyter Extension
+# Optional: Automatically open your notebook file when the workspace starts
+# ports:
+#   - port: 8888
+#     onOpen: open-browser
+# vscode:
+#   extensions:
+#     - ms-toolsai.jupyter
